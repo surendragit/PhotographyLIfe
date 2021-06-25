@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body > 
+  <h1 style="font-family: sans-serif;"> PHOTOGRAPHY LIFE</h1>
+  
+  
+    
+  
+
+  <nav>
+    <ul>
+    <a class="navbar-brand" href="#">
+        <img src="./assets/images/blue cam.jpeg"   class = "rounded" alt="no img" height="70px" width="80px"  >
+        
+
+    </a>
+    <li class="active"><a routerLink="/home"> <i class="fas fa-home"> HOME</i></a></li> 
+    <li><a routerLink="/about"><i class="far fa-address-card"> ABOUT</i></a></li>
+    <li><a routerLink="/gallery"><i class="fas fa-images"> GALLERY</i></a></li>
+    <li><a routerLink="/blog"><i class="fas fa-blog"></i> BLOG</a></li>
+    <li><a routerLink="/news"><i class="far fa-newspaper"></i> NEWS</a></li>
+    <li><a routerLink="/equipment"><i class="fas fa-camera"></i> EQUIPMENT</a></li>
+    <li><a routerLink="/contactus"><i class="far fa-address-book"></i> CONTACTUS</a></li>
+    <li class="right">
+      <a routerLink="/login">login</a>
+    </li>
+    <li class="left"><a routerLink="/signup">signup</a></li>
+    
+     </ul>
+  </nav>
+
+
+
+ 
+  
+  <app-footer></app-footer>
+  <router-outlet></router-outlet>
+  
+  
+
+
+</body>
+<footer id="footer">
+  <div class="footer-newsletter">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+                  <h4>Our Newsletter</h4>
+                  <p>Please Subscribe to our Website for more updates.</p>
+              </div>
+              <div class="col-lg-6">
+                  <form action="" method="post"> <input type="email" name="email"><input type="submit" value="Subscribe"> </form>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Gallery</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">News</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                  </ul>
+              </div>
+              
+              <div class="col-lg-3 col-md-6 footer-contact">
+                  <h4>Contact Us</h4>
+                  <p> PhotographyLife <br> A.P, IND 535022<br> INDIA  <br><br> <strong>Phone:</strong> +91 897766548855<br> <strong>Email:</strong> PhotographyLife@gmail.com<br> </p>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-info">
+                  <h3>About PhotographyLife</h3>
+                  <p>Photography is a devotion, but it is also a record of ideas unique to your life. Here are some insights on capturing the thoughts and feelings unique to you.</p>
+                  <div class="social-links mt-3"> <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container">
+      <div class="copyright"> © Copyright2021<strong><span>PhotographyLife</span></strong>. All Rights Reserved </div>
+      <div class="credits"> Designed by <a href="#">Surendra</a> </div>
+  </div>
+</footer>
+</html>
+

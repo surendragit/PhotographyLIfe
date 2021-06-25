@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.body
+{
+    background-image: url"(../assets/images/pexels-alexandre-saraiva-carniato-2384656.jpg)";
+}
+.slide-1,.slide-2.slide-3
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide-1
+{
+    animation: fadel1 10s infinite;
+}
+.slide-2
+{
+    animation: fadel2 10s infinite;
+}
+.
+@keyframes fadel1
+{
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes fadel2
+{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+
+
+body {
+    background-color: #eeedef
+}
+
+.height-100 {
+    height: 100vh
+}
+
+.card {
+    width: 580px;
+    border: none;
+    border-radius: 0px
+}
+
+.content span {
+    color: green;
+    font-weight: 500
+}
+
+.content p {
+    font-size: 13px
+}
+
+.angle i {
+    font-size: 19px;
+    cursor: pointer
+}
+
+.angle i:nth-child(1) {
+    margin-right: 10px
+}
+
+.about span:nth-child(1) {
+    margin-right: 10px;
+    color: green
+}

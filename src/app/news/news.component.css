@@ -1,0 +1,23 @@
+body
+
+h1 { float: left;}
+
+div img {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+div p{
+    text-align: left;
+    text-decoration: none;
+}
+aside{
+    width: 200px;
+    height: 100px;
+    float: right;
+    margin-top: ;
+}
+aside img{
+    width: 200px;
+    height: 50;
+}
